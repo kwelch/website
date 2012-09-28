@@ -83,8 +83,9 @@ color:#000;
     margin:0 15px;   
  list-style:none;
 }
-.shadow {
-    width: 700px;
+.main .shadow {
+	height:0px;
+    width: auto;
 	position: absolute; bottom: -20px; 
 	background: #000;
 	z-index: -1;
