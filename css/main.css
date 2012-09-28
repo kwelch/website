@@ -50,6 +50,9 @@ bottom:-10px;
     border-top: 10px solid #300;
     z-index:-1;
 }
+.main aside.left{
+float:left;	
+}
 .main b{
     display:block;
     margin-top:20px;
@@ -63,7 +66,7 @@ bottom:-10px;
 .main b + span a{
     color:#ddd;       
 }
-.main aside{
+.main aside.right{
  float:right;
 background:#CCC;
 color:#000;
@@ -76,10 +79,10 @@ color:#000;
                      6px 6px 0px #d6d6d6,
                      7px 7px 0px #ddd;
 }
-.main aside h2{
+.main aside.right h2{
     margin:0px;
 }
-.main aside ul{
+.main aside.right ul{
     margin:0 15px;   
  list-style:none;
 }
