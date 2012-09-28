@@ -16,7 +16,7 @@ a:hover{
 }
 .main{
  background:#363636;
-width:500px;
+width:700px;
 margin:20px auto;   
     position:relative;
     text-align:left;
@@ -34,6 +34,7 @@ h1{
 -webkit-box-shadow: 10px 10px 5px #888;
 box-shadow: 5px 5px 10px #000;
     color:#fff;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 h1:before{
 width:0;
@@ -77,5 +78,6 @@ color:#000;
 }
 .main aside ul{
  margin-left:15px;   
+ list-style:none;
 }
 ​
