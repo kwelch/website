@@ -16,11 +16,13 @@ a:hover{
 }
 .main{
  background:#363636;
-width:700px;
+width:40%;
 margin:20px auto;   
     position:relative;
     text-align:left;
     padding:10px 20px 40px;
+    min-width:220px;
+    max-width:550px;
 }
 h1{
  background:#900;   
