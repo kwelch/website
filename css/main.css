@@ -52,7 +52,7 @@ bottom:-10px;
 }
 .main b{
     display:block;
-    margin-top:10px;
+    margin-top:20px;
 }
 .main b + span{
  display:block;
@@ -75,6 +75,9 @@ color:#000;
                      -5px 5px 0px #ccc,
                      -6px 6px 0px #d6d6d6,
                      -7px 7px 0px #ddd;
+}
+.main aside h2{
+    margin:0px;
 }
 .main aside ul{
  margin-left:15px;   
