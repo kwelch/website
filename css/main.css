@@ -3,6 +3,13 @@ body{
     text-align:center;
     font-family: 'Scada', sans-serif;
     color:#CCC;
+	font-size:14px;
+}
+h1{
+font-size:2em;
+}
+h2{
+font-size:1.8em;
 }
 a{
  color:#666;
@@ -24,21 +31,20 @@ margin:20px auto;
     min-width:220px;
     max-width:550px;
 }
-h1{
+h1.title{
  background:#900;   
     padding:10px;
     padding-left:30px;
     position:relative;
     left:-30px;
     margin-bottom:20px;
-    font-size:2em;
 -moz-box-shadow: 10px 10px 5px #888;
 -webkit-box-shadow: 10px 10px 5px #888;
 box-shadow: 10px 10px 5px #000;
     color:#fff;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-h1:before{
+h1.title:before{
 width:0;
 height:0;
  content: ' ';  
@@ -73,6 +79,8 @@ float:left;
 }
 .main aside.right{
  float:right;
+ }
+ .main aside.links{
 background:#CCC;
 color:#000;
  padding:10px 20px;
@@ -84,10 +92,10 @@ color:#000;
                      6px 6px 0px #d6d6d6,
                      7px 7px 0px #ddd;
 }
-.main aside.right h2{
+.main aside.links h2{
     margin:0px;
 }
-.main aside.right ul{
+.main aside.links ul{
     margin:0 15px;   
  list-style:none;
 }
