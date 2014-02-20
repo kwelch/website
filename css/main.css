@@ -30,6 +30,7 @@ margin:20px auto;
     padding:10px 20px 40px;
     min-width:220px;
     max-width:550px;
+    overflow: hidden;
 }
 h1.title{
  background:#900;   
