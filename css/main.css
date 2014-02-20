@@ -37,6 +37,7 @@ text-align:left;
 padding:10px 20px 40px;
 min-width:220px;
 max-width:550px;
+overflow:hidden;
 }
 h1.title
 {
@@ -115,8 +116,9 @@ margin:0px;
 margin:0 15px;   
 list-style:none;
 }
-.main .shadow 
+.main:after
 {
+content: ' ';  
 height:0px;
 width: 100%;
 position: absolute; bottom: -40px; 
