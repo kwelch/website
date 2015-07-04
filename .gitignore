@@ -68,14 +68,14 @@ build/
 *.tlb
 *.tli
 *.tlh
-*.tmp
+#*.tmp -- removed due to duplicate
 *.tmp_proj
 *.log
 *.vspscc
 *.vssscc
 .builds
 *.pidb
-*.log
+#*.log -- removed becasue duplicate
 *.scc
 
 # Visual C++ cache files
@@ -194,7 +194,7 @@ $RECYCLE.BIN/
 *.egg
 *.egg-info
 dist/
-build/
+#build/ -- removed to duplicate
 eggs/
 parts/
 var/

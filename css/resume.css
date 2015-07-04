@@ -15,7 +15,35 @@ section h3 {
   border-bottom: 1px solid #c5c5c5;
 }
 
-.skills {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-details {
+  list-style: none;
+  display: flex;
+  flex-flow: row-reverse;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.contact-details li {
+  margin: 0px 0px 8px 5px;
+  font-weight: bold;
+}
+
+.contact-details .em {
+  margin: 0px 5px 0px 15px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.skills-detail-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .skills ul {
@@ -30,7 +58,7 @@ section h3 {
   border-bottom: 1px solid #dddddd;
 }
 
-.skills li.skills-languages {
+.skills .skills-languages li:first-child {
   font-weight: bold;
   display: block;
   margin-bottom: 5px;
@@ -38,7 +66,7 @@ section h3 {
   margin-left: -10px;
 }
 
-.skills li.skills-software {
+.skills .skills-frameworks li:first-child {
   font-weight: bold;
   display: block;
   margin-top: 15px;
@@ -47,7 +75,13 @@ section h3 {
   margin-left: -10px;
 }
 
-.job {
+.job-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.job-item {
   border-bottom: 1px solid #efefef;
   margin: 8px 0px;
 }
@@ -66,16 +100,35 @@ section h3 {
   font-variant: small-caps;
 }
 
-.job-detail {
+.job-detail-list {
   list-style: none;
   margin: 8px 0px;
   padding: 0px 0px 0px 10px;
   clear: both;
 }
 
-.job-detail li:before {
+.job-detail-item:before {
   content: '-';
   display: inline-block;
   margin-right: 8px;
   font-weight: bold;
+}
+
+.education-location {
+  font-weight: bold;
+}
+
+.education-year {
+  font-style: italic;
+  padding-right: 5px;
+  margin-right: 8px;
+  border-right: 1px solid #CCC;
+}
+
+.certification-item {
+  font-weight: bold;
+}
+
+.certification-year {
+  font-style: italic;
 }
