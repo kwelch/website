@@ -218,3 +218,5 @@ pip-log.txt
 
 #webstorm settings
 .idea/
+node_modules/
+
