@@ -70,7 +70,7 @@
 * Worked with our clients through the entire process, from sales to delivery
 
 ---
-
+g
 # Education 
 ### DeVry University - 2011
 *B.S., Computer Science – Web Development and Administration*
