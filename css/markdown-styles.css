@@ -1,0 +1,80 @@
+a {
+  color: #757575;
+}
+
+.headroom-wrapper h1 {
+  margin: 0 0 20px;
+}
+
+.headroom-wrapper h2 {
+  margin: 0 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.markdown h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.markdown h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.markdown h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.contact-details{
+  margin-bottom: 10px;
+}
+.contact-details + ul {
+  list-style: none none;
+  margin: 0 0 25px;
+  display:flex;
+  justify-content: space-between;
+}
+@media (max-width: 769px) {
+.contact-details + ul {
+  flex-direction: column;
+}
+}
+
+.contact-details + ul li{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.contact-details + ul ul {
+  list-style: none none;
+  margin:0;
+}
+.contact-details + ul ul li {
+  font-weight: 400;
+  text-transform: none;
+}
+
+.languages + ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.languages + ul li {
+}
+
+.frameworks + ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.frameworks + ul li {
+}
