@@ -12,10 +12,6 @@ a {
   font-weight: 400;
 }
 
-.markdown > h1 {
-  display: none;
-}
-
 .markdown h1 {
   font-size: 1.6rem;
   font-weight: 600;
