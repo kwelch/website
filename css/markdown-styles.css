@@ -1,99 +1,84 @@
-.warning {
-  color: #9F6000;
-  background-color: #FEEFB3;
-  padding: 18px;
-}
-.warning:before {
-  content:'\26A0';
-  margin-right: 9px;
+a {
+  color: #757575;
 }
 
-.rfc-page pre {
-  font-family: inherit;
+.headroom-wrapper h1 {
+  margin: 0 0 20px;
 }
 
-.hljs-comment,
-.hljs-quote {
-  color: #998;
+.headroom-wrapper h2 {
+  margin: 0 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.markdown > h1 {
+  display: none;
+}
+
+.markdown h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.markdown h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
   font-style: italic;
 }
 
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-subst {
-  color: #333;
-  font-weight: bold;
-}
-
-.hljs-number,
-.hljs-literal,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-tag .hljs-attr {
-  color: #008080;
-}
-
-.hljs-string,
-.hljs-doctag {
-  color: #d14;
-}
-
-.hljs-title,
-.hljs-section,
-.hljs-selector-id {
-  color: #900;
-  font-weight: bold;
-}
-
-.hljs-subst {
-  font-weight: normal;
-}
-
-.hljs-type,
-.hljs-class .hljs-title {
-  color: #458;
-  font-weight: bold;
-}
-
-.hljs-tag,
-.hljs-name,
-.hljs-attribute {
-  color: #000080;
-  font-weight: normal;
-}
-
-.hljs-regexp,
-.hljs-link {
-  color: #009926;
-}
-
-.hljs-symbol,
-.hljs-bullet {
-  color: #990073;
-}
-
-.hljs-built_in,
-.hljs-builtin-name {
-  color: #0086b3;
-}
-
-.hljs-meta {
-  color: #999;
-  font-weight: bold;
-}
-
-.hljs-deletion {
-  background: #fdd;
-}
-
-.hljs-addition {
-  background: #dfd;
-}
-
-.hljs-emphasis {
+.markdown h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
   font-style: italic;
+  margin-bottom: 5px;
 }
 
-.hljs-strong {
-  font-weight: bold;
+.contact-details{
+  margin-bottom: 10px;
+}
+.contact-details + ul {
+  list-style: none none;
+  margin: 0 0 25px;
+  display:flex;
+  justify-content: space-between;
+}
+@media (max-width: 769px) {
+.contact-details + ul {
+  flex-direction: column;
+}
+}
+
+.contact-details + ul li{
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.contact-details + ul ul {
+  list-style: none none;
+  margin:0;
+}
+.contact-details + ul ul li {
+  font-weight: 400;
+  text-transform: none;
+}
+
+.languages + ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.languages + ul li {
+}
+
+.frameworks + ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.frameworks + ul li {
 }
