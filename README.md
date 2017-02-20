@@ -12,32 +12,32 @@ title: Resume
 # Computer skills{.computer-skills}
 ## Languages {.languages}
 * **JavaScript**
+* **ES2016+**
 * CSS
+* SCSS
 * HTML
-* SQL
 * C#
-* Git
+* SQL
 
 ## Frameworks {.frameworks}
 * **ReactJS**
+* **Webpack**
 * **NodeJS**
 * **Redux**
 * **Jest**
-* TDD
 * .Net
-* MVC
-* Web Api
-* OOP
+* MVC / Web Api
 
 ---
 
 # Experience {.experience}
 ### NFIB - Software Development Engineer
 *March 2015 - Present*
-* Lead a diverse team of 7 team members
-* Managed and architect updates for multiple products
-* Developed an API for an interfaced third party experience
-* Managed and maintained communication between team members and other teams including management
+* Adapted to needs of the business, filling in rolls such as architect, lead, and developer
+* Worked with and led both on and off site teams consisting of full time and contractor developers
+* Spearheaded enterprise technology switch to React front end stack
+* Managed and architect updates for multiple products across all stacks
+* Communicated with all parts of the business (stakeholders, product owners, management, developer) to ensure transparency
 
 ### Computer Help Key Inc. - Part Time Developer
 *Feb. 2012-Present*
