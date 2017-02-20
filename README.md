@@ -1,16 +1,15 @@
----
-title: Resume
----
-## Contact Details {.contact-details}
+
+## Contact Details
 * phone
   * (224)789-8466
 * email
   * kyle@krwelch.com
 * website
   * http://krwelch.com
+
 ---
-# Computer skills{.computer-skills}
-## Languages {.languages}
+# Computer skills
+## Languages
 * **JavaScript**
 * **ES2016+**
 * CSS
@@ -19,7 +18,7 @@ title: Resume
 * C#
 * SQL
 
-## Frameworks {.frameworks}
+## Frameworks
 * **ReactJS**
 * **Webpack**
 * **NodeJS**
@@ -30,7 +29,7 @@ title: Resume
 
 ---
 
-# Experience {.experience}
+# Experience
 ### NFIB - Software Development Engineer
 *March 2015 - Present*
 * Adapted to needs of the business, filling in rolls such as architect, lead, and developer
@@ -69,7 +68,9 @@ title: Resume
 *Feb. 2010-May 2011 & Sept. 2006-July 2008*
 * Leaded creation of both clients and corporate: advertisements, websites, and video
 * Worked with our clients through the entire process, from sales to delivery
+
 ---
-# Education {.education}
+
+# Education 
 ### DeVry University - 2011
 *B.S., Computer Science – Web Development and Administration*
