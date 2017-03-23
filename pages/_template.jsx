@@ -29,12 +29,15 @@ module.exports = React.createClass({
               maxWidth: 960,
               paddingTop: 0,
               padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+              display: 'flex',
+              justifyContent: 'space-between',
             }}
           >
             <div>
               <h1>Kyle Welch</h1>
               <h2>Senior Software Development Engineer</h2>
             </div>
+            <a href="/blog/">Blog</a>
           </Container>
         </Headroom >
         <Container
