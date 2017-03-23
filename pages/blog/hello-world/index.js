@@ -1,10 +1,11 @@
 import React from 'react';
+import Helmet from 'react-helmet'
 
-export default class BlogRedirect extends React.Component {
-  componentWillMount() {
-    window.location.href = "https://medium.com/@kwelch/hello-world-30318028821"
-  }
-  render() {
-    return <h1>Redirecting...</h1>;
-  }
-}
+export default () => {
+  return (<h1>
+    Redirecting...
+    <Helmet meta={[
+      {"http-equiv": "refresh", "content": "0; url=https://medium.com/@kwelch/hello-world-30318028821"},
+    ]} />
+  </h1>);
+};
