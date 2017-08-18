@@ -1,7 +1,4 @@
----
-title: Resume
----
-## Contact Details {.contact-details}
+## Contact Details 
 * phone
   * (224)789-8466
 * email
@@ -9,8 +6,8 @@ title: Resume
 * website
   * http://www.krwelch.com
 ---
-# Computer skills{.computer-skills}
-## Languages {.languages}
+# Computer skills
+## Languages 
 * **JavaScript**
 * **ES2016+**
 * CSS
@@ -19,7 +16,7 @@ title: Resume
 * C#
 * SQL
 
-## Frameworks / Libraries {.frameworks}
+## Frameworks / Libraries 
 * **ReactJS**
 * **Webpack**
 * **NodeJS**
@@ -30,7 +27,7 @@ title: Resume
 
 ---
 
-# Volunteering {.volunteer}
+# Volunteering 
 ### Nodevember Crew Member
 
 Nodevember is a community conferenced focused Node and JavaScript. As part of the speaker team, responsibilites include selection, scheduling, and logisitics for all speakers. 
@@ -45,7 +42,7 @@ Currently an active maintainer on React-Slingshot. As an advid user of open sour
 
 ---
 
-# Experience {.experience}
+# Experience 
 ### NFIB - Senior Software Development Engineer
 *March 2015 - Present*
 * Spearheaded enterprise technology switch to React and Node as the front end stack technology
@@ -91,6 +88,6 @@ Currently an active maintainer on React-Slingshot. As an advid user of open sour
 
 ---
 
-# Education {.education}
+# Education 
 ### DeVry University - 2011
 *B.S., Computer Science – Web Development and Administration*
