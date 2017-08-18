@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kwelch-website",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kyle Welch <kwelch0626@gmail.com>",
   "dependencies": {
     "front-matter": "^2.1.1",
     "gatsby": "^0.12.20",

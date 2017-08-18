@@ -30,30 +30,33 @@ a {
   margin-bottom: 5px;
 }
 
-.contact-details{
+.contact-details {
   margin-bottom: 10px;
 }
+
 .contact-details + ul {
   list-style: none none;
   margin: 0 0 25px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
+
 @media (max-width: 769px) {
-.contact-details + ul {
-  flex-direction: column;
-}
+  .contact-details + ul {
+    flex-direction: column;
+  }
 }
 
-.contact-details + ul li{
+.contact-details + ul li {
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .contact-details + ul ul {
   list-style: none none;
-  margin:0;
+  margin: 0;
 }
+
 .contact-details + ul ul li {
   font-weight: 400;
   text-transform: none;
@@ -66,8 +69,8 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.languages + ul li {
-}
+
+.languages + ul li {}
 
 .frameworks + ul {
   list-style: none;
@@ -76,5 +79,5 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.frameworks + ul li {
-}
+
+.frameworks + ul li {}
