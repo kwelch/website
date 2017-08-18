@@ -1,15 +1,16 @@
-
-## Contact Details
+---
+title: Resume
+---
+## Contact Details {.contact-details}
 * phone
   * (224)789-8466
 * email
   * kyle@krwelch.com
 * website
-  * http://krwelch.com
-
+  * http://www.krwelch.com
 ---
-# Computer skills
-## Languages
+# Computer skills{.computer-skills}
+## Languages {.languages}
 * **JavaScript**
 * **ES2016+**
 * CSS
@@ -18,7 +19,7 @@
 * C#
 * SQL
 
-## Frameworks
+## Frameworks / Libraries {.frameworks}
 * **ReactJS**
 * **Webpack**
 * **NodeJS**
@@ -29,30 +30,49 @@
 
 ---
 
-# Experience
-### NFIB - Software Development Engineer
-*March 2015 - Present*
-* Adapted to needs of the business, filling in rolls such as architect, lead, and developer
-* Worked with and led both on and off site teams consisting of full time and contractor developers
-* Spearheaded enterprise technology switch to React front end stack
-* Managed and architect updates for multiple products across all stacks
-* Communicated with all parts of the business (stakeholders, product owners, management, developer) to ensure transparency
+# Volunteering {.volunteer}
+### Nodevember Crew Member
 
-### Computer Help Key Inc. - Part Time Developer
+Nodevember is a community conferenced focused Node and JavaScript. As part of the speaker team, responsibilites include selection, scheduling, and logisitics for all speakers. 
+
+### Speaker
+
+I have a deep passion for learning and understanding. By sharing my expierences I am able to help others similar to myself that are thirsty for knowledge. Additionally, speaking has given me a deeper understand of core concepts and better articulation of my own thought process.
+
+### Open Source Maintainer
+
+Currently an active maintainer on React-Slingshot. As an advid user of open source software, I do my best to give back with reviews and contributions when possible. 
+
+---
+
+# Experience {.experience}
+### NFIB - Senior Software Development Engineer
+*March 2015 - Present*
+* Spearheaded enterprise technology switch to React and Node as the front end stack technology
+* Adapted to needs of the business, filling in rolls such as architect, lead, and developer
+* Led multiple remote and onsite teams across multiple product and technology offerings
+* Communicated with all parts of the business to ensure transparency
+
+### Lirio - Consultant
+*June 2017 - Present*
+* Provided expertise to help efficently and effectively acheieve team goals
+
+### Computer Help Key Inc. - Consultant
 *Feb. 2012-Present*
-* Developed and maintained custom product solutions for many clients throughout multiple fields and needs
-* Help create automation solutions for clients using C# applications and Auto Hot Key scripts
+* Developed and maintained custom production solutions for many clients throughout multiple industries
+* Instituted automation solutions for clients using applications, scripts, and product integrations
 * Developed custom integration with off the shelf products to achieve business needs
 
 ### TekSystems - Contractor
+*_Client: Kenosha County_*
 *Sept. 2014 - March 2015*
-* Worked with a team through the entire development process to produce an issue management system
-* Created a solution that included a current product with a custom application integrated to provide a smooth processing and process improvement
 * Launched product within two government agencies with different security and environment challenges
+* Coordinated and developed product through entire lifecycle
+* Improved processes saving business time and money
 
 ### INXPO - Software Engineer
 *Oct. 2012-Sept. 2014*
-* Created complex web applications that use JavaScript and AJAX to provide a pleasant user experience while allowing the user to quickly and effectively accomplish their goals
+* Delivered complex web applications that use JavaScript and AJAX to provide a pleasant user experience while allowing the user to quickly and effectively accomplish their goals
 * Used proprietary software in combination with SQL and C++ to make custom applications to fit business needs
 * Collaborated with other team members to produce innovative designs and functionality to mean the demands of our cutting-edge industry
 * Developed modular code that would allow multiple developers to rapidly produce a multitude of products with different objectives
@@ -66,11 +86,11 @@
 
 ### GoFLO.com Inc. - Director of Content Management
 *Feb. 2010-May 2011 & Sept. 2006-July 2008*
-* Leaded creation of both clients and corporate: advertisements, websites, and video
+* Led creation of both clients and corporate: advertisements, websites, and video
 * Worked with our clients through the entire process, from sales to delivery
 
 ---
-g
-# Education 
+
+# Education {.education}
 ### DeVry University - 2011
 *B.S., Computer Science – Web Development and Administration*
