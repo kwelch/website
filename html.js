@@ -30,6 +30,7 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <meta name="google-site-verification" content="gxF1d6aASv3z1C6tazlhWGSsUHmRSIjy73N54zDilkA" />
           {head.title.toComponent()}
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
