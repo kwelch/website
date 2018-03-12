@@ -43,19 +43,23 @@ Currently an active maintainer on React-Slingshot. As an advid user of open sour
 ---
 
 # Experience 
+### Eventbrite - Software Development Engineer
+*Nov. 2017 - Present*
+
 ### NFIB - Senior Software Development Engineer
-*March 2015 - Present*
+*March 2015 - Nov. 2017*
 * Spearheaded enterprise technology switch to React and Node as the front end stack technology
 * Adapted to needs of the business, filling in rolls such as architect, lead, and developer
 * Led multiple remote and onsite teams across multiple product and technology offerings
 * Communicated with all parts of the business to ensure transparency
 
 ### Lirio - Consultant
-*June 2017 - Present*
+*June 2017 - Nov. 2017*
 * Provided expertise to help efficently and effectively acheieve team goals
+* Supported and implemented team migration from flow to TypeScript within their React project
 
 ### Computer Help Key Inc. - Consultant
-*Feb. 2012-Present*
+*Feb. 2012 - Nov. 2017*
 * Developed and maintained custom production solutions for many clients throughout multiple industries
 * Instituted automation solutions for clients using applications, scripts, and product integrations
 * Developed custom integration with off the shelf products to achieve business needs
