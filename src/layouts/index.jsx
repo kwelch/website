@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container } from 'react-responsive-grid'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
+import Link from 'gatsby-link'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
 
@@ -37,7 +36,7 @@ module.exports = React.createClass({
               <h1>Kyle Welch</h1>
               <h2>Senior Software Development Engineer</h2>
             </div>
-            <a href="/blog/">Blog</a>
+            <Link to="/blog/">Blog</Link>
           </Container>
         </Headroom >
         <Container
