@@ -1,8 +1,12 @@
 import React from 'react'
-import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
-import { config } from 'config'
+// import { config } from 'config'
 
+import '../css/markdown-styles.css'
+
+// Gatsby uses templates now
+// to have a template (e.g. for a blog post?)
+// you have to use the gatbsy-node.js api
 module.exports = React.createClass({
   propTypes() {
     return {
@@ -10,7 +14,8 @@ module.exports = React.createClass({
     }
   },
   render() {
-    const post = this.props.route.page.data
+    // const post = this.props.route.page.data
+    const post = {};
     return (
       <div className="markdown">
         <Helmet
