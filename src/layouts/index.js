@@ -2,7 +2,6 @@ import React from 'react'
 import { Container } from 'react-responsive-grid'
 import Link from 'gatsby-link'
 import Headroom from 'react-headroom'
-import '../css/markdown-styles'
 
 import { rhythm } from '../utils/typography'
 
@@ -46,7 +45,7 @@ module.exports = React.createClass({
             paddingTop: 0,
           }}
         >
-          {this.props.children}
+          {this.props.children()}
         </Container>
       </div >
     )
