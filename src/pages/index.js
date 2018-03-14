@@ -9,6 +9,6 @@ export default () => (
       paddingTop: 0,
     }}
   >
-    Hello world!
+    <Link to="/resume">Go to resume</Link>
   </div>
 );

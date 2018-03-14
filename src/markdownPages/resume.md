@@ -1,6 +1,6 @@
 ---
 title: Kyle Welch - Resume
-path: "resume"
+path: /resume
 ---
 
 ## Contact Details {.contact-details}
