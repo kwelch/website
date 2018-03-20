@@ -1,51 +1,26 @@
 {
-  "name": "kwelch-website",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
+  "name": "krwelch-website",
   "author": "Kyle Welch <kwelch0626@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwelch/website"
+  },
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
-    "front-matter": "^2.1.1",
-    "gatsby": "^1.9.231",
-    "gatsby-link": "^1.6.39",
-    "gatsby-plugin-sharp": "^2.0.0-alpha.7",
-    "gatsby-remark-copy-linked-files": "^1.5.28-1",
-    "gatsby-remark-images": "^2.0.0-alpha.8",
-    "gatsby-remark-prismjs": "^1.2.16-1",
-    "gatsby-remark-responsive-iframe": "^1.4.18-1",
-    "gatsby-remark-smartypants": "^1.4.12-1",
-    "gatsby-source-filesystem": "^2.0.0-alpha.3",
-    "gatsby-transformer-remark": "^2.0.1-1",
-    "highlight.js": "^9.8.0",
-    "history": "^4.7.2",
-    "js-yaml": "^3.7.0",
-    "markdown-it": "^8.4.1",
-    "markdown-it-abbr": "^1.0.3",
-    "markdown-it-attrs": "^1.2.1",
-    "markdown-it-deflist": "^2.0.1",
-    "markdown-it-footnote": "^3.0.1",
-    "markdown-it-sub": "^1.0.0",
-    "npm": "^5.7.1",
-    "object-assign": "^4.1.0",
-    "react-headroom": "^2.1.2",
-    "react-helmet": "^5.2.0",
-    "react-responsive-grid": "^0.3.3",
-    "react-typography": "^0.16.13",
-    "toml-js": "0.0.8",
-    "typography": "^0.16.6",
-    "typography-plugin-code": "^0.16.11"
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.36"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public",
-    "develop": "gatsby develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "^4.19.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
