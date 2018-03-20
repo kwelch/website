@@ -1,5 +1,6 @@
 {
   "name": "krwelch-website",
+  "author": "Kyle Welch <kwelch0626@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/kwelch/website"
@@ -16,5 +17,10 @@
     "gatsby-link": "^1.6.38",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.36"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0"
   }
 }
