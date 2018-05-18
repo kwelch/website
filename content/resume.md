@@ -5,8 +5,6 @@ path: /resume
 
 ## Contact Details {.contact-details}
 
-* phone
-  * (224)789-8466
 * email
   * kyle@krwelch.com
 * website
