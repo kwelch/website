@@ -12,7 +12,7 @@ export default () => (
     <h1>Kyle Welch</h1>
     <h2>
       Senior Software Developer at{' '}
-      <a href="http://eventbrite.com" target="_blank">
+      <a href="http://eventbrite.com/" target="_blank">
         Eventbrite
       </a>
     </h2>
@@ -21,7 +21,7 @@ export default () => (
         <Link to="/resume">Resume</Link>
       </li>
       <li>
-        <Link to="https://reactcodeworking.dev">React CodeWorking</Link>
+        <a href="https://codeworking.dev/">React CodeWorking</a>
       </li>
       <li>
         <a href="https://slides.krwelch.com/#/" target="_blank">
