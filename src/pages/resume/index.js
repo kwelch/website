@@ -1,5 +1,6 @@
 import React from 'react';
- 
+import { graphql } from 'gatsby'; 
+
 export default function IndexPage({ data }) {
   const { resume } = data;
   return (

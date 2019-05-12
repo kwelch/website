@@ -8,5 +8,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    // keep this last
+    `gatsby-plugin-netlify`,
   ],
 };

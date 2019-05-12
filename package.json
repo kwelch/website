@@ -8,19 +8,24 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
+    "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.223",
-    "gatsby-link": "^1.6.38",
-    "gatsby-source-filesystem": "^1.5.27",
-    "gatsby-transformer-remark": "^1.7.36"
+    "gatsby": "^2.4.3",
+    "gatsby-link": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^2.0.14",
+    "gatsby-plugin-netlify": "^2.0.13",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-remark": "^2.3.12",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "eslint": "^4.19.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-react": "^7.7.0"
   }
 }
