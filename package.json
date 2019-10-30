@@ -14,18 +14,21 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^2.4.3",
-    "gatsby-link": "^2.1.1",
-    "gatsby-plugin-google-analytics": "^2.0.14",
-    "gatsby-plugin-netlify": "^2.0.13",
-    "gatsby-source-filesystem": "^2.0.33",
-    "gatsby-transformer-remark": "^2.3.12",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@reach/router": "^1.1.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-react": "^7.16.0",
+    "gatsby": "^2.17.7",
+    "gatsby-link": "^2.2.22",
+    "gatsby-plugin-google-analytics": "^2.1.23",
+    "gatsby-plugin-netlify": "^2.1.23",
+    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-transformer-remark": "^2.6.32",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2"
   }
 }
