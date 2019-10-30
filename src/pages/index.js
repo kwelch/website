@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 export default () => (
   <div
@@ -17,9 +16,6 @@ export default () => (
       </a>
     </h2>
     <ul>
-      <li>
-        <Link to="/resume">Resume</Link>
-      </li>
       <li>
         <a href="https://codeworking.dev/">React CodeWorking</a>
       </li>

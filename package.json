@@ -23,11 +23,8 @@
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-react": "^7.16.0",
     "gatsby": "^2.17.7",
-    "gatsby-link": "^2.2.22",
     "gatsby-plugin-google-analytics": "^2.1.23",
     "gatsby-plugin-netlify": "^2.1.23",
-    "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-remark": "^2.6.32",
     "typescript": "^3.6.4",
     "webpack": "^4.41.2"
   }

@@ -1,0 +1,14 @@
+[build]
+  command = "yarn build"
+  publish = "public"
+
+[[redirects]]
+  from = "https://krwelch.com/*"
+  to = "https://kwelch.dev/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://krwelch-personal-site.netlify.com/*"
+  to = "https://kwelch.dev/:splat"
+  status = 301
+  force = true
