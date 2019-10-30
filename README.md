@@ -1,3 +1,3 @@
-Personal site
+# Kyle's Personal Site
 
-made with gatsby
+made with gatsby!
