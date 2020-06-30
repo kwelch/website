@@ -10,12 +10,16 @@ export default () => (
   >
     <h1>Kyle Welch</h1>
     <h2>
-      Senior Software Developer at{' '}
+      Engineering Manager at{' '}
       <a href="http://eventbrite.com/" target="_blank">
         Eventbrite
       </a>
     </h2>
     <ul>
+  
+      <li>
+        <a href="https://calendly.com/kylewelch">Calendar</a>
+      </li>
       <li>
         <a href="https://codeworking.dev/">React CodeWorking</a>
       </li>
