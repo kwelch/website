@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => (
+const App = () => (
   <div
     style={{
       maxWidth: 960,
@@ -16,7 +16,6 @@ export default () => (
       </a>
     </h2>
     <ul>
-  
       <li>
         <a href="https://calendly.com/kylewelch">Calendar</a>
       </li>
@@ -47,3 +46,5 @@ export default () => (
     <p>Site made with gatsby</p>
   </div>
 );
+
+export default App;
