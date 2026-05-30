@@ -1020,6 +1020,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.20.13":
+  version "7.29.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.29.7.tgz#12022450c45a4da6d8d8287b18a4ff2ddb23f768"
+  integrity sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==
+
 "@babel/template@^7.16.7", "@babel/template@^7.18.10":
   version "7.18.10"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.18.10.tgz#6f9134835970d1dbf0835c0d100c9f38de0c5e71"
@@ -5040,13 +5045,13 @@ gatsby-parcel-config@0.14.0:
     "@parcel/transformer-raw" "2.6.2"
     "@parcel/transformer-react-refresh-wrap" "2.6.2"
 
-gatsby-plugin-google-analytics@^4.23.0:
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.23.0.tgz#7c83c747646df9f892978513faa870ccc2b8679c"
-  integrity sha512-MajEdx9vVZOeHl8vVDhiLdd8fAoHAvEFi4NwlnuH24HOecGIM939gpJX51zg1Hg2clMzhEhW3EQizjR0uJ0zXA==
+gatsby-plugin-google-analytics@^5.0.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-5.16.0.tgz#47d780c4f75be3a30233b10b24a71d1120f70175"
+  integrity sha512-S+RCYDWgwJiKmr6hzjohyeNpAY/ryKW2R4DIoH/TGM03eJdMW5kstQdKHIUOOTc/PJQU3sRRL42YEu0KTZqWSg==
   dependencies:
-    "@babel/runtime" "^7.15.4"
-    minimatch "3.0.4"
+    "@babel/runtime" "^7.20.13"
+    minimatch "^3.1.2"
     web-vitals "^1.1.2"
 
 gatsby-plugin-netlify@^5.0.1:
